@@ -2,6 +2,7 @@ For github we had to make a repository then we had 2 methods to upload the data 
 Command:-
 
 1. Make a repo and copy that url & clone the repo and start uploading data.
+git clone repo-link
 
 For initializing - 
 git init(initialized git repo) all files will had "U" symbol => Untracked File
@@ -12,5 +13,34 @@ dir = to see folders; cd = change directory.
 1. git add . / git add * to upload all the files in github
 git add foldername/filename (for particular folder/file)
 if we add the files we will see "A" symbol. 
-2. git commit -m "give some message", after that "A" & "U" symbol will be removed.
-3. git push.
+2. git commit -m "give some message". (after that "A" & "U" symbol will be removed).
+3. git push.(pushing the folders local to github).
+4. git status.(check the status).
+5. git checkout.(changing the branch).
+
+Error(while pushing) - 
+remote: Permission to Dipesh77Dev/Web-Development-practice-tutorial1.git denied to DipeshDevrukhkar.
+fatal: unable to access 'https://github.com/Dipesh77Dev/Web-Development-practice-tutorial1.git/': The requested URL returned error: 403
+
+Soln By Token -
+Make a new token by going in Settings > Developer Options > Personal access tokens
+1. Give the note(description for what purpose)
+2. Keep expiration(we can select any days).
+3. Select all the box, & click on generate token.
+Personal token will be generated.
+my token - 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
+
+Syntax:-
+git remote set-url origin https://[APPLICATION] : [NEW TOKEN]@github.com/[ORGANISATION]/[REPO].git
+command - git remote set-url origin https://username: token url/username/repo name.git
+
+A: addition of a file
+D: deletion of a file
+U: file is unmerged (you must complete the merge before it can be committed)
+C: copy of a file into a new one
+D: deletion of a file
+M: modification of the contents or mode of a file
+R: renaming of a file
+T: change in the type of the file
+X: "unknown" change type (most probably a bug, please report it)
+
