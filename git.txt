@@ -1,0 +1,16 @@
+For github we had to make a repository then we had 2 methods to upload the data :- Within browser(website), command line(normal, vs terminal, git bash)
+Command:-
+
+1. Make a repo and copy that url & clone the repo and start uploading data.
+
+For initializing - 
+git init(initialized git repo) all files will had "U" symbol => Untracked File
+
+gitignore => It is used for ignoring the files in github.
+dir = to see folders; cd = change directory.
+
+1. git add . / git add * to upload all the files in github
+git add foldername/filename (for particular folder/file)
+if we add the files we will see "A" symbol. 
+2. git commit -m "give some message", after that "A" & "U" symbol will be removed.
+3. git push.

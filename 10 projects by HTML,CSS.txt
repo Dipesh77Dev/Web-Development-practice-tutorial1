@@ -1,0 +1,23 @@
+10 Projects to Built with HTML & CSS
+1. Simple Biography Website - our role model
+2. Contact page with Form
+3. Registration Form
+4. Product Landing Page
+5. Restaurant Menu Page
+6. Fitness Club PAge
+7. Portfolio Page
+8. CRM View
+9. App page
+10. Beauty Products Store
+11. Ebook Store
+_______________________________
+
+1. Webpage with Forms
+2. Landing Page
+3. Music Store Website4. Photography Website
+5. Personal Portfolio
+6. Tribute Webpage
+7. Restaurant Web Project
+8. Survey Page
+9. Technical Documentation10. Real Estate Website 
+
